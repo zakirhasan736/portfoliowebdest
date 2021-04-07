@@ -1,0 +1,478 @@
+@media (min-width: 1400px) and (max-width: 2900px) {
+    .main-wrapper {
+        position: relative;
+        width:1440px;
+        height: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding-left: 56px;
+        padding-right: 56px;
+        background-color: #f7f7ff;
+    }
+    .header-section {
+        position: relative;
+        width: 1440px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding-top: 56px;
+        padding-left: 56px;
+        padding-right: 56px;
+        background-color: #f7f7ff;
+      }
+      .header-section.header-sticky.sticky{
+          position: sticky;
+          width: 1440px;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          background-color: #fff;
+          box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.1);
+          top: 0%;
+          left: 0;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          z-index: 999999;
+      }
+
+}
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .list-inline-item.header-btnbox {
+        margin-left: 155px !important;
+    }
+    .heroshape2-element {
+        right: -105px;
+    }
+    .heroshape2-element img {
+        width: 96%;
+        height: 100%;
+    }
+    .cardbox-content p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .cardbox-content a.card-linkedtext {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .Quem-eu-ja-ajudeiBox p {
+        font-size: 18px;
+    }
+    .avatarQuem-eu-ja-ajudei-info h6 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .subs-formgroup label .subs-btn.btn-str {
+        font-size: 16px;
+        line-height: 22px;
+        width: 229px;
+        top: -2px;
+        right: -35px;
+    }
+    .subs-formgroup input {
+        width: 400px !important;
+    }
+    .section-title h2 {
+        font-size: 48px;
+    }
+
+}
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .list-inline-item:not(:last-child) {
+            margin-right: 0 !important;
+        }
+        .navbar-navsd ul .nav-item.list-inline-item a {
+            font-size: 16px;
+            line-height: 24.38px;
+        }
+        .navbar-navsd ul .nav-item.list-inline-item {
+            margin-left: 24px;
+        }
+        .btn-str {
+            padding: 16px 18px 16px 18px;
+            font-size: 14px;
+            width: 170px;
+        }
+        .btn-str.headerbtn {
+            font-size: 14px !important;
+        }
+        .navbar-navsd ul .nav-item.list-inline-item.header-btnbox {
+            margin-left: 80px;
+        }
+        .hero-contentbox p {
+            font-size: 22px;
+            line-height: 44.5px;
+        }
+        .hero-contentbox h1 {
+            font-size: 45px;
+            line-height: 65px;
+        }
+        .heroshape2-element {
+            right: -37%;
+            bottom: 28%;
+        }
+        .heroshape2-element img {
+            width:70%;
+        }
+        .section-title h2 {
+            font-size: 35px;
+            line-height: 52px;
+        }
+        .section-title h4 {
+            font-size: 18px;
+            line-height: 28.5px;
+        }
+        .section-title p {
+            font-size: 15px;
+            line-height: 27px;
+        }
+        .section-title .quem-section-text {
+            font-size: 22px;
+            line-height: 40px;
+        }
+        .avatarQuem-eu-ja-ajudei-info h6 {
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .Quem-eu-ja-ajudeiBox p {
+            font-size: 18px;
+        }
+        .contactbox-title h2 {
+            font-size: 26px;
+            line-height: 45.5px;
+        }
+        .contactbox-title p {
+            font-size: 15px;
+            line-height: 29px;
+        }
+        .contactbox-title .contact-section-title {
+            line-height: 38px;
+            font-size: 22px;
+        }
+        .subs-formgroup input {
+            width: 280px !important;
+        }
+        .subs-formgroup label .subs-btn.btn-str {
+            font-size: 12px !important;
+            line-height: 22px !important;
+            width: 170px !important;
+            top: 0px !important;
+            right: -23px !important;
+        }
+        .subs-formgroup input::placeholder{
+            font-size: 14px;
+            line-height: 19px;
+        }
+        .subs-formgroup input {
+            padding: 15px 0px 11px 15px !important;
+        }
+        .youtubeframe-shape1 {
+            top: 15%;
+        }
+        .youtubeframe-shape2 img {
+            width: 50%;
+        }
+        .terget-flowlinkeditem li {
+            margin-left: 18px;
+        }
+        .youtube-titlebox-linkcont .terget-linktitle a {
+            width: 195px;
+            margin: 8px 0 0;
+        }
+        .terget-subcribebtn a {
+            padding: 12px 20px;
+            font-size: 15px;
+        }
+        .youtubeframe-shape2 {
+            bottom: -8%;
+            right: -153px;
+        }
+        #mc-embedded-subscribe {
+            font-size: 16px !important;
+            width: 190px !important;
+        }
+        #mce-EMAIL {
+            width: 330px !important;
+        }
+        #mce-EMAIL::placeholder{
+            font-size: 16px
+        }
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .navbar-navsd ul .nav-item.list-inline-item.header-btnbox {
+            margin-left: 0px;
+            margin-top: 55px;
+        }
+        .heroshape2-element {
+            display: none;
+        }
+        .btn-str {
+            padding: 16px 18px 16px 18px;
+            font-size: 14px;
+            width: 170px;
+        }
+        .hero-contentbox {
+            padding-bottom: 180px;
+        }
+        .section-title h2 {
+            font-size: 32px;
+            line-height: 48px;
+        }
+        .section-title h4 {
+            font-size: 16px;
+            line-height: 32.5px;
+        }
+        .cardbox-content p {
+            font-size: 14px;
+            line-height: 27px;
+        }
+        .cardbox-content a.card-linkedtext {
+            font-size: 16px;
+            line-height: 27px;
+        }
+        .cardbox-content h6 {
+            font-size: 20px;
+        }
+        .section-title p {
+            font-size: 18px;
+            line-height: 33px;
+        }
+        .section-title .quem-section-text {
+            font-size: 25px;
+            line-height: 43px;
+        }
+        .contactbox-title .contact-section-title {
+            font-size: 25px;
+        }
+        #mc-embedded-subscribe {
+            padding: 21px 24px !important;
+            top: 0 !important;
+            right: 16% !important;
+        }
+
+       ul li.list-inline-item {
+            padding: 0;
+            display: flex;
+            margin-left: 0;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .main-headerBox {
+            padding: 24px 0 24px 0;
+        }
+
+        .list-inline-item.header-btnbox .btn-str.headerbtn {
+            font-size: 16px;
+            color: #fff;
+            width: 202px;
+            padding: 16px 18px;
+            font-weight: 600;
+        }
+        .list-inline-item.header-btnbox .btn-str.headerbtn:hover{
+            background: #FE5F55;
+        }
+
+        .navbar-nav.ml-auto.menu-bar {
+            background: #fff;
+            height: 100vh;
+            position: relative;
+            padding-top: 16%;
+            top: 15px;
+            text-align: center;
+        }
+
+        .navbar-navsd ul li {
+            margin-left: 0px;
+            padding-top: 0px;
+        }
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+                 /* ------------------------------------ */
+
+                 ul.navbar-nav li.list-inline-item {
+                    padding: 0;
+                    display: flex;
+                    margin-left: 0;
+                    justify-content: center;
+                    margin-top: 10px;
+                }
+                .main-headerBox {
+                    padding: 24px 0 24px 0;
+                }
+        
+                .list-inline-item.header-btnbox .btn-str.headerbtn:hover{
+                    background: #FE5F55;
+                }
+        
+                .navbar-nav.ml-auto.menu-bar {
+                    background: #fff;
+                    height: 100vh;
+                    position: relative;
+                    padding-top: 32%;
+                    top: 15px;
+                    text-align: center;
+                }
+        
+                .navbar-navsd ul li {
+                    margin-left: 0px;
+                    padding-top: 0px;
+                }
+
+        .list-inline-item.header-btnbox .btn-str.headerbtn {
+            font-size: 15px;
+            color: #fff;
+            width: 180px;
+            padding: 15px 20px;
+        }
+        .list-inline-item.header-btnbox .btn-str.headerbtn:hover{
+            background: #FE5F55;
+        }
+
+        .navbar-navsd ul .nav-item.list-inline-item.header-btnbox{
+            margin-top: 80px !important;
+            margin-left: 0;
+        }
+            /* --------------------------------- */
+            .header-section {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .main-wrapper {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .hero-contentbox h1 {
+                font-size: 31px;
+                line-height: 60px;
+            }
+            .hero-contentbox p {
+                font-size: 18px;
+                line-height: 40.5px;
+            }
+            .btn-str {
+                padding: 16px 18px 16px 18px;
+                font-size: 14px;
+                width: 170px;
+                left: 0;
+                right: 0;
+                display: block;
+                margin: 0 auto;
+            }
+            .heroshape2-element {
+                display: none;
+            }
+            .section-title h2 {
+                font-size: 29px;
+                line-height: 50px;
+            }
+            .section-title h4 {
+                font-size: 16px;
+                line-height: 28.5px;
+            }
+            .cardbox-content h6 {
+                font-size: 17px;
+                line-height: 27px;
+            }
+            .cardbox-content p {
+                font-size: 13px;
+                line-height: 28px;
+            }
+            .cardbox-content a.card-linkedtext {
+                font-size: 14px;
+                line-height: 19px;
+            }
+            .section-title .quem-text br {
+                display: none;
+            }
+            .section-title p.quem-text {
+                font-size: 14px;
+                line-height: 27px;
+            }
+            .section-title .quem-section-text br {
+                display: none;
+            }
+            .section-title .quem-section-text {
+                font-size: 18px;
+                line-height: 38px;
+            }
+            .Quem-eu-ja-ajudeiBox p br{
+                display: none;
+            }
+            .Quem-eu-ja-ajudeiBox p {
+                font-size: 14px;
+                line-height: 24px;
+            }
+            .avatarQuem-eu-ja-ajudei-info h6 {
+                font-size: 12px;
+                line-height: 22px;
+            }
+            .avatarQuem-eu-ja-ajudei-info h5 {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .contactbox-title p {
+                font-size: 18px;
+                line-height: 29px;
+            }
+            .contactbox-title .contact-section-title {
+                line-height: 40px;
+                font-size: 22px;
+            }
+            #mc-embedded-subscribe {
+                position: relative !important;
+                width: 100% !important;
+                top: 19px !important;
+                right: 0 !important;
+            }
+            #mce-EMAIL {
+                padding: 20px 0px 20px 15px !important;
+                width: 100% !important;
+            }
+            .required.email::placeholder{
+                font-size: 12px;
+                line-height: 19px;
+            }
+            .youtubeframe-shape1 img {
+                width: 70%;
+            }
+            .youtubeframe-shape1 {
+                top: 14%;
+                left: -26px;
+            }
+            .youtube-titlebox-linkcont {
+                display: inline-block !important;
+            }
+            .terget-flowlinkeditem {
+                margin-top: 20px;
+            }
+            .terget-flowlinkeditem li {
+                margin-left: 18px;
+            }
+            .youtube-useravatarCHname-subscribebtn {
+                display: inline-block !important;
+            }
+            .terget-subcribebtn a {
+                padding: 12px 15px;
+                font-size: 15px;
+                margin-top: 18px;
+                display: inline-block;
+                text-align: center;
+            }
+            .hero-contentbox {
+                padding-bottom: 200px;
+                text-align: center;
+            }
+    }
+     
+    /* SM Small Device :550px. */
+    /* @media only screen and (min-width: 576px) and (max-width: 767px) {} */
